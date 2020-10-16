@@ -1,0 +1,180 @@
+/* header */
+
+.logo{
+
+
+    width: 100px;
+    height: 74px;
+}
+.title{
+    color:#FF7A00;
+}
+.navigation{
+    float:left;
+    margin-left:40px;
+    margin-top:30px;
+
+}
+.clear{
+    clear: both;
+}
+.nav-li{
+    float:left;
+}
+.nav-a{
+    margin-left:93px;   
+
+
+}
+
+
+/* start section  */
+
+
+.logodiv{
+    margin-left:74px;
+    float:left;
+}
+
+
+.header-wraper{
+    position: fixed;
+    width: 100%;
+    z-index:2;
+    top:0;
+    left:0;
+    
+}
+
+
+body{
+    height: 1800px;
+    padding-top:93px;
+}
+
+
+.nav-div{
+    margin-top:15px;
+}
+.posts{
+    color:#FF7A00;
+    margin-top:30px;
+    margin-left:172px;
+    font-family: "Poppins";
+
+
+}
+.banner{
+    width: 1600px;
+}
+.divbanner{
+    position: relative;
+    background-image: url(../img/banner.jpg);
+    background-repeat: no-repeat;
+    height:350px;
+    width:100%;
+    background-size: contain;
+    margin-top:120px;
+    
+}
+.satauri{
+    position: absolute;
+    top:50px;
+    left:600px;
+
+
+
+}
+
+.title1{
+    
+    color:white;
+    position: absolute;
+    top:30%;
+    left:40%;
+    font-size:20px;
+
+}
+.blog{
+    
+    color:white;
+    position: absolute;
+    top:40%;
+    left:40%;
+    font-size:30px;
+    
+
+}
+.article{
+    width: 470px;
+    float:left;
+    margin:50px,60px;
+}
+.readmore::after{
+    content:" ";
+    width:30px;
+    height:4px;
+    background-color: #FF7A00;
+    display:inline-block;
+    margin-left:30px;
+
+
+}
+.paragraph{
+margin-top:15px;
+font-family: "Poppins";
+}
+.readmore{
+    color: #FF7A00;
+    margin-top:20px;
+}
+.H1{
+    margin:15px,0;
+    font-size:30px;
+    font-family: "Poppins";
+
+
+}
+.whole{
+    width:1170px;
+    margin-left:auto;
+    margin-right: auto;
+    margin-top:30px;
+}
+.image{
+    width:470px;
+}
+.article2{
+    width: 470px;
+    float: right;;
+    margin:50px,60px;
+
+}
+
+.load{
+    position: relative;
+    width:120px;
+    height: 50px;
+    background-color: #FF7A00;
+    margin-top:30px;
+    margin-left:600px;
+
+}
+/* .LoadMore{
+    position: absolute;
+    top:15px;
+    left:20px;
+    color:white;
+} */
+.button {
+    margin-top: 100px ;
+    margin-left:650px;
+    background-color: #FF7A00;
+    color: white;
+    font-size: 15px;
+    border-style: hidden;
+    block-size: 60px;
+}
+.banner {
+    width: 100%;
+}
